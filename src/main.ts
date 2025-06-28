@@ -1,9 +1,9 @@
-import './style.css'
-
-const app = document.querySelector<HTMLDivElement>('#app')!
+import "./style.css";
+// import "./solid/SingleResponsability";
+import "./clean-code/02.exercise.reduceComplexity";
+const app = document.querySelector<HTMLDivElement>("#app")!;
 
 app.innerHTML = `
   <h1>CleanCode y SOLID</h1>
   <span>Revisar la consola de JavaScript</span>
-`
-
+`;
